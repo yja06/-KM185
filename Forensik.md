@@ -48,3 +48,9 @@
   Timeline-Analysen zur Rekonstruktion des Angriffsablaufs.
 
 Diese Orte und Methoden helfen dabei, Spuren eines Angriffs zu entdecken, zu sichern und gerichtsverwertbar auszuwerten.
+
+##  Sofort Massnamen
+
+Netzwerk trennen
+
+Snapshots erstellen
