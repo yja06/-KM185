@@ -25,5 +25,4 @@ Ein Change Request (CR) ist ein formeller Antrag auf Änderung eines IT-Systems,
 - Zeitplan realistisch planen und kommunizieren.
 - Nach Umsetzung Überprüfung und Dokumentation der Ergebnisse sicherstellen.
 
-## Beispielstruktur (Markdown)
 
