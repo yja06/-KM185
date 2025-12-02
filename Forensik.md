@@ -32,6 +32,10 @@
 - **Cloud- und virtuelle Umgebungen:**  
   Zugriffsdaten, Logs von Cloud-Diensten und virtuellen Maschinen.
 
+  **ARP**
+
+  Arp Table
+
 ## Wichtige Aspekte zur Spurensicherung
 
 - **Integrität:**  
