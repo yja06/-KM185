@@ -250,6 +250,7 @@ Aus welchen BSI-Bausteingruppen sind Bausteine für die Bewertung der Mailserver
 [ ] ORP  
 [x] APP – Anwendungen  
 [ ] ANW  
+[x] SYS  
 [ ] IND  
 [x] NET – Netze und Kommunikation  
 [x] INF – Infrastruktur  
