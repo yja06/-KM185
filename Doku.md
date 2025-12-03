@@ -237,7 +237,7 @@
 
 ---
 
-# Lösung – Schriftliche Prüfung Element C  
+# Aufgaben  
 Sicherheitsmassnahmen im KMU IT-Umfeld analysieren & implementieren
 
 ---
