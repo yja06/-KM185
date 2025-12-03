@@ -1,110 +1,227 @@
-# Inhalt
+# Zusammenfassung der behandelten Begriffe
 
-## Begriffe
+## ISO/IEC 27001
 
-- [translate:Broadcast Domain]  
-  Ein Netzwerkbereich, in dem eine Nachricht an alle Geräte geschickt wird.
+- **Typ:** Norm, IT-relevant, sicherheitsrelevant  
+- **Bedeutung:** International Organization for Standardization / International Electrotechnical Commission  
+- **Erklärung:** ISO/IEC 27001 ist eine internationale Norm für Informationssicherheits-Managementsysteme (ISMS). Sie beschreibt Anforderungen, mit denen Organisationen die Informationssicherheit systematisch aufbauen und verbessern können.  
+- **Hinweise:**  
+  - Eher für Management  
+  - Sicherheitsniveau kann beurteilt werden  
 
-- [translate:Segmentierung]  
-  Die Aufteilung eines Netzwerks oder Marktes in kleinere Abschnitte oder Gruppen, um besser zu steuern oder zu analysieren.
+---
 
-- [translate:Subnetz] & [translate:Routing]  
-  [translate:Subnetz] bedeutet, ein großes Netzwerk in kleinere Teile zu zerlegen. [translate:Routing] ist der Weg, wie Datenpakete im Netzwerk von einem Teilnetz zum anderen gelangen.
+## BSI IT-Grundschutz
 
-- [translate:NAT] / Masquerading  
-  Techniken, um private IP-Adressen in öffentliche zu übersetzen, damit Geräte im Internet kommunizieren können.
+- **Typ:** Standard, IT-relevant, sicherheitsrelevant  
+- **Bedeutung:** Bundesamt für Sicherheit in der Informationstechnik  
+- **Erklärung:** Der IT-Grundschutz ist ein vom BSI entwickelter Standard zur Informationssicherheit in Deutschland. Er liefert praxisnahe Vorgehensweisen und Maßnahmenkataloge für den Aufbau eines Sicherheitsmanagements.  
+- **Hinweise:**  
+  - Grundschutz-Bausteine zeigen die Anforderungen  
+  - IT-Si-Reihe zeigt die praktische Beschreibung  
 
-- [translate:Verschlüsselungsverfahren]  
-  Methoden, um Daten so zu verändern, dass sie nur für berechtigte Personen lesbar sind.
+---
 
-- 2FA / MFA  
-  Zwei- oder Mehrfaktor-Authentifizierung; zusätzliche Sicherheitsschritte beim Einloggen, z. B. neben Passwort auch einen Code eingeben.
+## OSSTMM
 
-- IT Schutzziel: [translate:Verfügbarkeit], [translate:Integrität], [translate:Vertraulichkeit]  
-  Die Ziele in der IT-Sicherheit: Systeme sollen immer verfügbar sein, Daten sollen unverändert bleiben und nur berechtigte Personen darauf zugreifen.
+- **Typ:** Standard, IT-relevant, sicherheitsrelevant  
+- **Bedeutung:** Open-Source Security Testing Methodology Manual  
+- **Erklärung:** OSSTMM ist ein international verbreiteter Standard für Sicherheitstests. Er definiert eine systematische Methode zur Prüfung von Netzwerken, Systemen und Prozessen auf Sicherheitslücken.  
+- **Hinweise:**  
+  - Eher für technische Security-Analysen interessant  
+  - Strukturierte Schwachstellenanalyse  
 
-- [translate:Sicherheitslücke] (Vulnerability) / CVE / Zero-Day  
-  Schwachstellen in Software, die von Angreifern genutzt werden können; CVE ist eine Liste solcher Schwachstellen; Zero-Day bedeutet, dass die Schwachstelle noch unbekannt oder nicht behoben ist.
+---
 
-- [translate:Ransomware]  
-  Schadsoftware, die Daten verschlüsselt und Geld fordert, um sie wieder freizugeben.
+## IKT-Minimalstandard (CH)
 
-## Normen und Standards
+- **Typ:** Standard, IT-relevant, sicherheitsrelevant  
+- **Bedeutung:** Informations- und Kommunikationstechnologien (IKT)  
+- **Erklärung:** Der IKT-Minimalstandard ist ein Standard der Schweizer Bundesverwaltung. Er legt verbindliche Mindestanforderungen an die Informations- und Cybersicherheit für Behörden fest.  
 
-- [translate:ISO/IEC 27001]  
-  Internationale Norm für Informationssicherheits-Managementsysteme. Sie hilft Unternehmen, ihre IT und Daten systematisch vor Gefahren zu schützen und Sicherheitsmaßnahmen zu planen.
+---
 
-- BSI IT-Grundschutz  
-  Deutscher Standard für Informationssicherheit. Enthält Vorgaben und Empfehlungen, wie Organisationen und Behörden ihre IT und Daten gegen Bedrohungen absichern.
+## Österreichisches Sicherheitshandbuch
 
-- OSSTMM  
-  Open Source Security Testing Methodology Manual. Ein offenes Handbuch für professionelle und systematische Sicherheitstests (z. B. Penetrationstests) an IT-Systemen.
+- **Typ:** Standard, IT-relevant, sicherheitsrelevant  
+- **Erklärung:** Das Österreichische Sicherheitshandbuch ist ein nationaler Standard, der Vorgaben und Empfehlungen zur Informationssicherheit für Organisationen in Österreich bereitstellt.  
 
-- IKT-Minimalstandard (CH)  
-  Schweizer Standard für minimale Anforderungen an IT-Sicherheit in Behörden und öffentlichen Einrichtungen, damit eine sichere Infrastruktur gewährleistet ist.
+---
 
-- Österreichisches Sicherheitshandbuch  
-  Leitfaden für IT-Sicherheit in Österreich. Gibt Empfehlungen, wie Sicherheitsmaßnahmen geplant und umgesetzt werden, speziell für Organisationen und Behörden.
+## ISO/IEC 9001
 
-- [translate:ISO/IEC 9001]  
-  Internationale Norm und Standard für Qualitätsmanagement. Sorgt dafür, dass Abläufe in Unternehmen verbessert werden und Produkte/Dienstleistungen zuverlässig sind.
+- **Typ:** Norm  
+- **Bedeutung:** International Organization for Standardization / International Electrotechnical Commission  
+- **Erklärung:** ISO/IEC 9001 ist eine internationale Norm für Qualitätsmanagementsysteme. Sie dient der Sicherstellung von gleichbleibender Qualität in Unternehmen, ist aber nicht speziell auf IT oder Sicherheit ausgerichtet.  
 
-- DSGVO  
-  Datenschutz-Grundverordnung: EU-Gesetz, das regelt, wie personenbezogene Daten verarbeitet, gespeichert und geschützt werden müssen. Ziel ist der Schutz der Privatsphäre.
+---
 
-- OWASP Top Ten  
-  Liste der zehn häufigsten und gefährlichsten Sicherheitsrisiken bei Webanwendungen, von der Organisation OWASP veröffentlicht. Dient als Orientierung für Entwickler und IT-Sicherheitsleute.
+## DSGVO
 
-- ITIL  
-  Information Technology Infrastructure Library: Framework für IT-Service-Management. Gibt Empfehlungen, wie IT-Abteilungen ihre Dienstleistungen professionell und effizient anbieten können.
+- **Typ:** Norm, IT-relevant, sicherheitsrelevant  
+- **Bedeutung:** Datenschutz-Grundverordnung (EU)  
+- **Erklärung:** Die DSGVO ist eine Rechtsnorm der Europäischen Union, die den Schutz personenbezogener Daten regelt. Sie betrifft stark die IT, da Unternehmen technische und organisatorische Maßnahmen zum Datenschutz umsetzen müssen.  
 
-- COBIT  
-  Control Objectives for Information and Related Technologies. International anerkanntes Framework für IT-Management und -Steuerung, mit Fokus auf Prozesse, Risiken und Unternehmensziele.
+---
 
-## IT-Forensik - Zusammenfassung / Spickzettel
+## OWASP Top Ten
 
-1. Grundlagen IT-Forensik  
-   100% Sicherheit gibt es nicht - besonders in der IT. Sofortmaßnahmen & passende Unterstützung kennen ist wichtiger als Konzepte der Brandbekämpfung. Gebot der Stunde: Brand- und Ursachenermittlung (System-Entwurf mit IT-Forensik-Readiness).  
-   Einleitung: BSI Baustein DLR 2.2 (Kapitel 1.1)
+- **Typ:** Standard, IT-relevant, sicherheitsrelevant  
+- **Bedeutung:** Open Web Application Security Project  
+- **Erklärung:** Die OWASP Top Ten ist ein anerkannter Standard, der die zehn wichtigsten Sicherheitsrisiken für Webanwendungen beschreibt. Sie dient Entwicklern und Sicherheitsteams als Orientierung für sichere Softwareentwicklung.  
+- **Top 3 Angriffe (Beispiele):**  
+  - Broken Access Control  
+  - Cryptographic Failures  
+  - Injection  
 
-2. Ziele & Aufgaben der IT-Forensik  
-   IT-Forensiker = Tatortermittler im digitalen Raum. Die IT-Forensik versucht nach einer Tat folgende Fragen zu beantworten:  
-   - Was ist geschehen?  
-   - Wo ist es passiert?  
-   - Wann ist es passiert?  
-   - Wie ist es passiert?
+---
 
-3. Motivation & Zielveränderung  
-   Sobald eine Strafuntersuchung oder Sicherheitsbewertung läuft, ändern sich die Fragen zu:  
-   - Wer hat es getan?  
-   - Was kann gegen eine Wiederholung getan werden?
+## ITIL
 
-4. Hauptproblem der IT-Forensik  
-   ❌ "Das ist ein Hack" - ist eine Hackerattacke und kein Bedienungsfehler?  
-   Problem im Zentrum: Eine Störung, Auffälligkeit, etwas was nicht dahin gehört.  
-   "Das ist ein Hack" handelt sich mit großer Wahrscheinlichkeit eher um einen Witz, eine Hollywood-Produktion, und hoffentlich nicht um echte Ransomware.  
-   Wichtig: Vorsicht, Aufmerksamkeit und Zurückhaltung mit Anschuldigungen sind keine schlechten Gebote für diesen Moment.
+- **Typ:** Standard, IT-relevant  
+- **Bedeutung:** Information Technology Infrastructure Library  
+- **Erklärung:** ITIL ist ein international anerkannter Standard für Best Practices im IT-Service-Management. Er beschreibt Prozesse und Vorgehensweisen, um IT-Services effizient und kundenorientiert bereitzustellen.  
 
-5. Terminologie & Vorgehen bei IT-Forensischer Analyse  
-   Aus dem BSI-Leitfaden:  
-   Vorfall systematisch beschreiben durch Einsatz der CERT-Taxonomie (bewährt, ständig erweitert bzw. angepasst). Sie adressiert vorsätzliche Handlungen im Rahmen eines Vorfalls. Zufällige Betriebsstörungen und der Ausfall bzw. das Fehlverhalten von Hard- und Software sind nicht Teil der Taxonomie. Ziel: Ein Minimum an abstrakt zu beschreibenden Begriffen zu finden, um Sicherheitsvorfälle präzise zu klassifizieren.
+---
 
-6. Erste praktische Aufgabe  
-   Szenario: Mitarbeiter kopiert unberechtigt schützenswerte Dateien auf Speichermedium. Wie und in welcher Form könnten digitale Spuren von Missetaten entstehen und gefunden werden? Mindestens 5 mögliche Fundorte schriftlich festhalten.
+## COBIT
 
-7. Weitere Denkansätze  
-   Überlegen, was Systeme wo installieren müssten, damit an mindestens 5 unterschiedlichen Orten Spuren eines solchen Diebstahls entstehen würden.
+- **Typ:** Standard, IT-relevant  
+- **Bedeutung:** Control Objectives for Information and Related Technology  
+- **Erklärung:** COBIT ist ein internationaler Standard für IT-Governance und Management. Er liefert ein Rahmenwerk, mit dem Unternehmen ihre IT-Prozesse steuern und kontrollieren können, um Geschäftsziele besser zu unterstützen.  
 
-8. IT-Forensik-Readiness  
-   System-Design-Sicht: Systeme so entwerfen und betreiben, dass forensisch verwertbare Spuren entstehen. Ein kompetenter Angreifer wird versuchen, Spuren zu verwischen.  
-   Überlege Gegenmaßnahmen gegen Spurenbeseitigung oder deren Erschwerung (mindestens 3).
+---
 
-9. IT-Forensik: Der Krux mit dem Beweis  
-   Zentrale Frage: Wie kann eine Tat einer Person nachgewiesen werden? Mindestens 3 Möglichkeiten festhalten, wie eine Verbindung zwischen Beweisen und tatverdächtiger Person hergestellt werden kann.
+## Konzepte zur IT-Sicherheit
 
-10. Ausblick: Weitere Leitfragen  
-    - Wo hinterlassen Manipulationen Spuren?  
-    - Wo könnten sich mögliche Spuren finden lassen?  
-    - Wie kann deren Verlust vermieden werden?  
-    - Was kann ich selbst sichern?  
-    - Was vermeide ich? Wovon lasse ich lieber die Finger?
+- Zonierung/Segmentierung  
+- Isolation  
+- Drei-Schichten-Modell  
+- Minimalprinzip der Benutzerrechte (Least Privilege)  
+
+---
+
+## Inhalt eines Change Request
+
+- Priorität / Risiko (gibt an, wie dringend es ist)  
+- Geplante Downtime  
+- Antragsteller  
+- Antragsdatum  
+- Problembeschreibung  
+- Kosten, wenn möglich in Dauer/Aufwand  
+- Projektleiter  
+- Maßnahmen  
+- Testing  
+- Fallback-Prozedur  
+- Abgrenzung  
+- Anhänge / Dokumentation  
+- Unterschrift des Antragstellers  
+
+---
+
+## HTTP-Request-Methoden
+
+- PUT  
+- PATCH  
+- POST  
+- DELETE  
+- GET  
+
+---
+
+## Quellen mit Hinweisen auf Malware
+
+- Virenscan  
+- Persistenter Speicher (z. B. Laufwerk C:)  
+- Prozessliste  
+- Eventliste  
+- ARP-Cache  
+- Logs  
+- Zentrales Log  
+
+---
+
+## Reaktion auf Sicherheitsvorfälle
+
+- System/Host isolieren  
+- Snapshot erstellen  
+- Account des Täters löschen (bzw. sperren, je nach Prozess)  
+
+---
+
+## Drei-Schichten-Architektur
+
+- Man trennt:  
+  - Präsentation (z. B. Website, GUI)  
+  - Anwendung (Business-Logik)  
+  - Datenhaltung (z. B. Datenbank)  
+
+---
+
+## Change Request – Zweck und Entscheidung
+
+- **Warum macht man einen Change Request?**  
+  - Konfigurationsänderungen werden dokumentiert.  
+  - Änderungen werden überprüft und freigegeben oder abgelehnt.  
+
+- **Wer entscheidet?**  
+  - Change Advisory Board (CAB)  
+
+---
+
+## Social Engineering – Beispielanalyse
+
+### Möglicher Schaden für das Opfer
+
+- Verlust der Kontosicherheit  
+- Risiko von Identitätsdiebstahl  
+- Finanzielle Schäden möglich (z. B. SIM-Swap)  
+- Verletzung der Privatsphäre  
+
+### Weiterverwendung der Informationen
+
+- SIM-Swap / Kontrolle über Telefonnummer  
+- Zugriff auf Bank-, E-Mail- oder Social-Media-Konten  
+- Verkauf der Daten im Darknet  
+- Weitere Phishing- / Social-Engineering-Angriffe  
+
+### Warum erhielt die „Testerin“ die Infos?
+
+- Mitarbeiter vertraute ihr aufgrund der emotionalen Situation  
+- Darstellung einer dringenden Notlage  
+- Sicherheitsprüfung ungenügend durchgeführt  
+- Genutzte persönliche Informationen (z. B. Name der Frau)  
+
+### Genutzte Faktoren beim Angriff
+
+- Emotionale Manipulation (schreiendes Baby)  
+- Glaubwürdigkeit durch persönliche Infos  
+- Erzeugter Zeitdruck  
+- Ausnutzung von Mitgefühl  
+- Täuschung mit gefälschter AHV-Nummer  
+
+---
+
+## Social Engineering – Prävention und Reaktion
+
+### Wie hätte der Fall vermieden werden können?
+
+- Strengere Identitätsprüfung durch den Provider  
+- Keine Weitergabe sensibler Daten ohne eindeutige Verifizierung  
+- Schulung der Mitarbeiter im Umgang mit Social Engineering  
+- Technische Zusatzsicherungen (z. B. PIN oder Passwort fürs Kundenkonto)  
+
+### Was kann der Kunde tun?
+
+- Starke Passwörter und zusätzliche Sicherheitsfragen einrichten  
+- Zwei-Faktor-Authentifizierung aktivieren  
+- Persönliche Daten nicht unnötig preisgeben  
+- Bei Verdacht sofort den Provider kontaktieren  
+
+### Wie gehe ich als Betroffener vor?
+
+- Sofort Provider informieren und Konto sperren lassen  
+- Passwörter und Sicherheitsfragen ändern  
+- Verdächtige Abbuchungen oder Aktivitäten prüfen  
+- Polizei oder Meldestelle für Cybercrime einschalten  
+- Beobachten, ob weitere Konten betroffen sind  
