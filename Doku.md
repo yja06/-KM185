@@ -224,4 +224,169 @@
 - Passwörter und Sicherheitsfragen ändern  
 - Verdächtige Abbuchungen oder Aktivitäten prüfen  
 - Polizei oder Meldestelle für Cybercrime einschalten  
-- Beobachten, ob weitere Konten betroffen sind  
+- Beobachten, ob weitere Konten betroffen sind
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+# Lösung – Schriftliche Prüfung Element C  
+Sicherheitsmassnahmen im KMU IT-Umfeld analysieren & implementieren
+
+---
+
+# 1.1 BSI-Bausteingruppen (3 Punkte)
+
+Aus welchen BSI-Bausteingruppen sind Bausteine für die Bewertung der Mailserverumgebung zu entnehmen?
+
+[ ] ISMS  
+[ ] ORP  
+[x] APP – Anwendungen  
+[ ] ANW  
+[ ] IND  
+[x] NET – Netze und Kommunikation  
+[x] INF – Infrastruktur  
+
+---
+
+# 1.2 Auditvergleich Mailsecurity (PCI-DSS vs. BSI)
+
+## 1.2.1 Auditpunkte → BSI APP-Zuordnung (12 Punkte)
+
+| Auditbericht (Nr.) | Passender BSI APP-Baustein |
+|--------------------|----------------------------|
+| 002 – Unsichere Protokolle | APP.3.1.A6 Sichere Kommunikationsprotokolle |
+| 003 – Externer Zugriff ungefiltert | APP.3.1.A1 Segmentierung / Firewall |
+| 005 – Fehlende Backupberichte | APP.3.2.A1 Datensicherung |
+| 008 – Kein Logging | APP.3.1.A12 Protokollierung |
+| 009 – Keine Spamrichtlinie | APP.3.3.A4 Umgang mit Spam |
+| 011 – Passwortpolitik schwach | APP.3.1.A7 Authentisierung |
+| 012 – PW-Policy nicht erzwungen | APP.3.1.A7 Authentisierung |
+| 018 – NTP auf Linux fehlt | APP.3.1.A6 Systemhärtung / Zeitdienst |
+
+---
+
+# 1.2.2 Risikoanalyse ungelöster Auditpunkte (6 Punkte)
+
+## Punkt 1  
+Wenn unsichere Protokolle weiter offen bleiben, können Angreifer unverschlüsselten Mailverkehr abfangen oder manipulieren.
+
+## Punkt 2  
+Fehlende Passwortregeln erhöhen das Risiko eines erfolgreichen Kontoangriffs durch schwache oder kompromittierte Passwörter.
+
+---
+
+# 1.3 Statusabgleich Mailumgebung (17 Punkte)
+
+Handbuch gilt als umgesetzt → folgende Auditpunkte sind nun **behoben**.
+
+### 1.3.1 Status (X = behoben)
+
+| Audit Nr. | Status |
+|-----------|--------|
+| 001 | [ ] |
+| 002 | [x] |
+| 003 | [x] |
+| 004 | [x] |
+| 005 | [x] |
+| 006 | [ ] |
+| 007 | [ ] |
+| 008 | [x] |
+| 009 | [x] |
+| 010 | [x] |
+| 011 | [x] |
+| 012 | [x] |
+| 013 | [x] |
+| 014 | [x] |
+| 015 | [x] |
+| 016 | [ ] |
+| 017 | [x] |
+| 018 | [x] |
+| 019 | [x] |
+| 021 | [x] |
+| 022 | [ ] |
+| 023 | [ ] |
+| 024 | [x] |
+| 025 | [x] |
+| 026 | [x] |
+| 027 | [ ] |
+| 028 | [ ] |
+| 029 | [x] |
+| 030 | [ ] |
+
+---
+
+# 1.3.2 BSI-Grundschutzkompendium (2 Punkte)
+
+Wie nennt das BSI seine zusätzlichen praktischen Handlungsempfehlungen?
+
+**Antwort:**  
+**BSI IT-Grundschutz – “Best Practice” Serie / “Technische Richtlinien”**
+
+---
+
+# 1.3.3 Zusätzliche Empfehlungen des BSI (3 Punkte)
+
+Welche zusätzlichen Massnahmen empfiehlt BSI zur E-Mail-Authentisierung?
+
+[x] DKIM  
+[x] SPF  
+[x] DMARC  
+[ ] Sender ID  
+[ ] SURBL  
+[ ] Statistische Inhaltsanalyse  
+
+---
+
+# 1.4 Sicherheitsbewertung Betrieb & Unterhalt (8 Punkte)
+
+## 1.4.1 Bewertung Maildatensicherung
+
+Wurde dieser Punkt im Audit bemängelt?  
+[x] Ja  
+[ ] Nein
+
+### Beurteilung  
+[x] Es wird eine Datensicherung erstellt  
+[x] Die Datensicherung wird regelmässig geprüft  
+[x] Es existiert ein externes Backup (Bankschliessfach)  
+[ ] Die Datensicherung erfolgt unregelmässig  
+
+---
+
+## 1.4.2 Bewertung Schwachstellenscans
+
+Wurde dieser Punkt im Audit bemängelt?  
+[x] Ja  
+[ ] Nein
+
+### Beurteilung  
+[x] Es werden wöchentliche **externe** Scans durchgeführt  
+[x] Es werden regelmässige **interne** Scans durchgeführt  
+[x] Resultate werden bewertet und Massnahmen definiert  
+[ ] Scans finden nur selten statt  
+
+---
+
+## 1.4.3 Bewertung Systemupdates
+
+Wurde dieser Punkt im Audit bemängelt?  
+[x] Ja  
+[ ] Nein
+
+### Beurteilung  
+[x] Das OS des Mailservers wird regelmässig aktualisiert  
+[x] Updates werden zuerst in einer Testumgebung ausprobiert  
+[ ] Updates werden komplett deaktiviert  
+[ ] Updates erfolgen unstrukturiert  
+
+---
+
+
