@@ -315,6 +315,42 @@ Basierend auf Betriebshandbuch (neue Mailzonen, Spamfilter, Backup, Logging, DNS
 
 ---
 
+korrekt:
+
+| Audit Nr. | Status | Begründung |
+|-----------|--------|------------|
+| 001 | [ ] | Betriebshandbuch sagt nichts über veraltete User im Hotel-Druid → nicht Mailserver |
+| 002 | [x] | Neue DMZ-Zonierung + Mailgateway + verschlüsselte SMTP-Verbindungen |
+| 003 | [x] | Neue Paketfilter-Regeln + nur Mailgateway darf SMTP/IMAP → behoben |
+| 004 | [x] | Halbjährliche Firewall-Protokolle wurden im neuen Konzept berücksichtigt |
+| 005 | [x] | Backup täglich 02:00 + extern im Banktresor → NEU und klar definiert |
+| 006 | [ ] | Interne Schwachstellenscans werden im Handbuch NICHT erwähnt |
+| 007 | [ ] | Betrifft interne Zone + Datenbanken → kein Bezug zur Mailumgebung |
+| 008 | [x] | Logging neu vorhanden: Mailgateway prüft & loggt Verbindungen |
+| 009 | [x] | Spam-Umgang neu definiert + Mitarbeiterschulung alle 6 Monate |
+| 010 | [x] | PW-Policy: SSO über ADS → starke Passwortregeln automatisch übernommen |
+| 011 | [x] | PW-Policy wird durch ADS erzwungen → behoben |
+| 012 | [x] | PW-Policy erzwingbar → durch AD-Integration behoben |
+| 013 | [x] | ESXi NTP etc. → laut Handbuch Teil des neuen Betriebsprozesses |
+| 014 | [x] | Unnötige Dienste deaktiviert → Mailserver nur SMTP/IMAP |
+| 015 | [x] | Unnötige Software wurde deaktiviert → sauberer Server |
+| 016 | [ ] | Anti-Virus auf Windows-Servern wird NICHT erwähnt im Handbuch |
+| 017 | [x] | NTP neu geprüft und korrigiert (im Handbuch: neue Zeitquelle) |
+| 018 | [x] | Cronjob / ntpdate laut Betriebshandbuch angepasst |
+| 019 | [x] | Alerts im Monitoring neu definiert und verbessert |
+| 021 | [x] | Monitoring neu definiert (unabhängig, klare Regeln) |
+| 022 | [ ] | Prüfung Hotel-Druid – nichts im Handbuch |
+| 023 | [ ] | Mailbox-Limits → Handbuch sagt nur: 500 MB *intern* (nur Mitarbeiter). Aber Audit sagt: bestimmte Mailboxen müssen limitiert werden. → nicht vollständig behoben |
+| 024 | [x] | Mailfilter blockiert gefährliche Anhänge (pdf, exe, .docm) |
+| 025 | [x] | Open Relay verhindert (Mailgateway prüft Absender, DNS, Reputation) |
+| 026 | [x] | Schlüsselwechsel wird im Handbuch erwähnt (Zonentransfer etc.) |
+| 027 | [ ] | Tür RZ – physische Sicherheit nicht im Handbuch erwähnt |
+| 028 | [ ] | Externe Vulnerability Scans fehlen noch |
+| 029 | [x] | WLAN-Scans → im neuen Wireless-Formular & Instruktion ergänzt |
+| 030 | [ ] | Incident Response Plan: jährlicher Test fehlt noch |
+
+---
+
 # 1.3.2 BSI-Grundschutzkompendium (2 Punkte)
 
 Name der BSI-Best-Practice-Serie:
